@@ -283,6 +283,24 @@ export const InvestmentsTab: React.FC<InvestmentsTabProps> = ({ setActiveTab }) 
           </div>
         </div>
       </section>
+      {/* Regulatory, Asset-Backed Contract & Anti-Fraud Disclaimer */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12">
+        <div className="rounded-2xl bg-slate-100 border border-slate-300 p-6 sm:p-8 text-xs sm:text-sm text-slate-600 space-y-3 leading-relaxed">
+          <div className="flex items-center gap-2 font-extrabold text-slate-900 uppercase tracking-wider text-xs">
+            <span className="inline-block w-2 h-2 rounded-full bg-amber-500"></span>
+            Statutory Commercial & Investment Disclaimer
+          </div>
+          <p>
+            <strong>1. Asset-Backed Commercial Partnership (Not a Public Security):</strong> The DE ANDERS NIG LTD Tricycle (Keke) and Mini-Bus investment tiers are bilateral, asset-backed commercial fleet-management and hire-purchase partnerships governed under Nigerian corporate law. Nothing on this website constitutes a public offer of securities, collective investment scheme, or banking deposit solicitation.
+          </p>
+          <p>
+            <strong>2. Binding Written Agreement Required:</strong> Projected returns (up to 48% ROI) and payout schedules displayed on this platform are for informational purposes and remain subject to the execution of a formal, legally binding Fleet Management Agreement signed between the investor and <strong>DE ANDERS NIG LTD</strong>.
+          </p>
+          <p>
+            <strong>3. Anti-Fraud & Official Payment Warning:</strong> This website does <strong>not</strong> collect payments online. Prospective partners must never transfer funds to personal bank accounts. All physical asset allocations, contract signings, and corporate account verifications must be confirmed through our headquarters at <strong>7/12 Seven &amp; Half Junction, Umuagu Obowo, Imo State</strong>, or our verified <strong>Umuahia</strong> and <strong>Onuimo</strong> branch offices.
+          </p>
+        </div>
+      </section>
     </div>
   );
 };

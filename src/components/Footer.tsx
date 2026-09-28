@@ -190,6 +190,34 @@ export const Footer: React.FC<FooterProps> = ({ setActiveTab }) => {
 
       {/* Bottom Copyright Bar */}
       <div className="border-t border-slate-800/80 bg-slate-950 py-5 px-4 text-xs text-slate-400">
+      {/* NDPA 2023 Data Privacy & Platform Liability Notice */}
+        <div className="mt-8 pt-6 border-t border-slate-800/80 text-xs text-slate-400">
+          <details className="group bg-slate-900/60 border border-slate-800 rounded-xl p-4 cursor-pointer">
+            <summary className="font-bold text-slate-300 flex items-center justify-between list-none">
+              <span>
+                🇳🇬 Nigeria Data Protection Act (NDPA 2023) Privacy Notice &amp; Terms of Use
+              </span>
+              <span className="text-amber-400 text-[11px] font-semibold group-open:rotate-180 transition-transform">
+                ▼ Click to Expand
+              </span>
+            </summary>
+
+            <div className="mt-3 pt-3 border-t border-slate-800 space-y-2 text-slate-400 leading-relaxed cursor-default">
+              <p>
+                <strong className="text-slate-200">Data Privacy (NDPA 2023 Compliance):</strong> In compliance with the Nigeria Data Protection Act (NDPA) 2023, <strong>DE ANDERS NIG LTD</strong> acts as the Data Controller for all client inquiries. This website operates on a zero-database static architecture and does not store personal or financial records on web servers or tracking cookies.
+              </p>
+              <p>
+                <strong className="text-slate-200">Lawful Processing &amp; Third-Party Routing:</strong> When you voluntarily initiate contact via WhatsApp, telephone, or email links on this site, your name, phone number, and inquiry details are processed strictly on the lawful basis of consent and pre-contractual service fulfillment (transport charter, hire purchase, or fleet investment onboarding).
+              </p>
+              <p>
+                <strong className="text-slate-200">Data Subject Rights:</strong> You retain the right to request access to, rectification of, or erasure of your inquiry records at any time by contacting our Data Protection Desk at <span className="text-slate-200">deandersnigerialimited@gmail.com</span> or visiting our Main Office at 7/12 Seven &amp; Half Junction, Umuagu Obowo, Imo State.
+              </p>
+              <p>
+                <strong className="text-slate-200">Platform Limitation of Liability:</strong> This web portal serves strictly as an informational showcase and communication gateway. All commercial transport operations, vehicle allocations, hire-purchase contracts, and investment return disbursements are executed offline and remain the sole corporate responsibility of <strong>DE ANDERS NIG LTD</strong>.
+              </p>
+            </div>
+          </details>
+        </div>
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
           <p>© {new Date().getFullYear()} {COMPANY_INFO.name}. All rights reserved.</p>
           <p className="text-slate-500">
