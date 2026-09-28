@@ -297,7 +297,7 @@ export const InvestmentsTab: React.FC<InvestmentsTabProps> = ({ setActiveTab }) 
             <strong>2. Binding Written Agreement Required:</strong> Projected returns (up to 48% ROI) and payout schedules displayed on this platform are for informational purposes and remain subject to the execution of a formal, legally binding Fleet Management Agreement signed between the investor and <strong>DE ANDERS NIG LTD</strong>.
           </p>
           <p>
-            <strong>3. Anti-Fraud & Official Payment Warning:</strong> This website does <strong>not</strong> collect payments online. Prospective partners must never transfer funds to personal bank accounts. All physical asset allocations, contract signings, and corporate account verifications must be confirmed through our headquarters at <strong>7/12 Seven &amp; Half Junction, Umuagu Obowo, Imo State</strong>, or our verified <strong>Umuahia</strong> and <strong>Onuimo</strong> branch offices.
+            <strong>3. Anti-Fraud & Official Payment Warning:</strong> This website does <strong>not</strong> collect payments online. Prospective partners must never transfer funds to personal bank accounts. All physical asset allocations, contract signings, and corporate account verifications must be confirmed through our <strong> official phone numbers and whatsapp contacts </strong> or at our headquarters at <strong>7/12 Seven &amp; Half Junction, Umuagu Obowo, Imo State</strong>, or our verified <strong>Umuahia</strong> and <strong>Onuimo</strong> branch offices.
           </p>
         </div>
       </section>
