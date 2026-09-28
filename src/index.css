@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  --brand-dark: #0A192F;
+  --brand-primary: #1E3A8A;
+  --brand-accent: #F97316;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+.bg-brand-dark { background-color: var(--brand-dark); }
+.bg-brand-primary { background-color: var(--brand-primary); }
+.bg-brand-accent { background-color: var(--brand-accent); }
+
+.text-brand-dark { color: var(--brand-dark); }
+.text-brand-primary { color: var(--brand-primary); }
+.text-brand-accent { color: var(--brand-accent); }
+
+.border-brand-primary { border-color: var(--brand-primary); }
+.border-brand-accent { border-color: var(--brand-accent); }
