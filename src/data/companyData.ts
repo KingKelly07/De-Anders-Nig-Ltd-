@@ -4,11 +4,11 @@ export const COMPANY_INFO = {
   name: 'DE ANDERS NIG LTD',
   tagline: 'Your Journey, Our Priority!',
   subTagline: 'Empowering lives through our services',
-  phones: ['07071707935', '07034435285'],
-  whatsappNumbers: ['+48537119307', '07034435285'],
+  phone: ['07071707935'],
+  whatsappNumbers: ['+48537119307'],
   whatsappLinkPrimary: 'https://wa.me/48537119307?text=Hello%20DE%20ANDERS%20NIG%20LTD,%20I%20would%20like%20to%20make%20an%20enquiry.',
   email: 'deandersnigerialimited@gmail.com',
-  instagramHandles: ['@de_andax', '@Deandersnigltd'],
+  instagramHandles: ['@Deandersnigltd'],
 };
 
 export const DAILY_ROUTES = [

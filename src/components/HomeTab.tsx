@@ -123,7 +123,7 @@ export const HomeTab: React.FC<HomeTabProps> = ({ setActiveTab }) => {
                     </p>
                   </div>
                   <a
-                    href={`tel:${COMPANY_INFO.phones[0]}`}
+                    href={`tel:${COMPANY_INFO.phone[0]}`}
                     className="bg-brand-primary hover:bg-blue-700 text-white text-xs font-bold px-3.5 py-2 rounded-lg flex items-center gap-1.5"
                   >
                     <Phone className="w-3.5 h-3.5" />
@@ -305,7 +305,7 @@ export const HomeTab: React.FC<HomeTabProps> = ({ setActiveTab }) => {
                       </span>
                     </div>
                   </div>
-                  
+
                   <div className="mb-6 bg-blue-950/60 border border-blue-800/70 rounded-xl p-3.5 text-sm">
                     <span className="font-extrabold text-amber-300 block">
                       Payout: {plan.weeklyPayout}

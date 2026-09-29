@@ -164,11 +164,11 @@ export const InvestmentsTab: React.FC<InvestmentsTabProps> = ({ setActiveTab }) 
                 {/* Card Footer CTA */}
                 <div className="px-6 sm:px-8 pb-8 pt-2 flex flex-col sm:flex-row gap-3">
                   <a
-                    href={`tel:${COMPANY_INFO.phones[1]}`}
+                    href={`tel:${COMPANY_INFO.phone[1]}`}
                     className="flex-1 bg-brand-dark hover:bg-slate-800 text-white font-bold text-sm py-3.5 px-4 rounded-xl flex items-center justify-center gap-2 transition-colors"
                   >
                     <Phone className="w-4 h-4 text-amber-400" />
-                    <span>Call {COMPANY_INFO.phones[1]}</span>
+                    <span>Call {COMPANY_INFO.phone[1]}</span>
                   </a>
                   <a
                     href={COMPANY_INFO.whatsappLinkPrimary}

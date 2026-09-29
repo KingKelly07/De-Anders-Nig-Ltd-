@@ -7,7 +7,7 @@ export const WhatsAppFloat: React.FC = () => {
     <div className="fixed bottom-5 right-5 z-40 flex flex-col items-end gap-2.5">
       {/* Direct Call Pill (Mobile Quick Access) */}
       <a
-        href={`tel:${COMPANY_INFO.phones[0]}`}
+        href={`tel:${COMPANY_INFO.phone[0]}`}
         aria-label="Call DE ANDERS NIG LTD"
         className="sm:hidden bg-brand-primary text-white p-3.5 rounded-full shadow-lg hover:bg-blue-800 transition-all flex items-center justify-center border border-blue-400/30"
       >

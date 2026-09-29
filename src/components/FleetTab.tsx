@@ -193,11 +193,11 @@ export const FleetTab: React.FC<FleetTabProps> = ({ setActiveTab }) => {
               <span>View 48% ROI Plans</span>
             </button>
             <a
-              href={`tel:${COMPANY_INFO.phones[0]}`}
+              href={`tel:${COMPANY_INFO.phone[0]}`}
               className="bg-white text-brand-dark hover:bg-amber-400 font-extrabold text-sm px-5 py-3.5 rounded-xl flex items-center gap-2 transition-colors"
             >
               <Phone className="w-4 h-4" />
-              <span>Call {COMPANY_INFO.phones[0]}</span>
+              <span>Call {COMPANY_INFO.phone[0]}</span>
             </a>
           </div>
         </div>
