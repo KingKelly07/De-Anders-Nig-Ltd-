@@ -50,7 +50,7 @@ export const HomeTab: React.FC<HomeTabProps> = ({ setActiveTab }) => {
               <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight leading-tight text-white">
                 Reliable Road Transport, Charter &{' '}
                 <span className="text-amber-400">
-                  Profitable Mobility Investments
+                  Profitable investments from our vehicles
                 </span>
               </h1>
 
@@ -186,7 +186,7 @@ export const HomeTab: React.FC<HomeTabProps> = ({ setActiveTab }) => {
             Our Core Transport & Investment Services
           </h2>
           <p className="text-slate-600 mt-3 text-sm sm:text-base">
-            From daily commuter transit and private vehicle charter to driver ownership schemes and high-yield fleet investments.
+            From daily commuter transit and private vehicle charter to driver ownership schemes and high-yield bus and keke investments.
           </p>
         </div>
 
