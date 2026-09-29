@@ -172,7 +172,7 @@ export const ContactTab: React.FC = () => {
                   Direct Phone Hotlines
                 </h3>
                 <div className="space-y-2">
-                  {COMPANY_INFO.phone.map((phone) => (
+                  {COMPANY_INFO.phones.map((phone) => (
                     <a
                       key={phone}
                       href={`tel:${phone}`}

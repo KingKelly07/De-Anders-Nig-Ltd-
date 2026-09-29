@@ -43,18 +43,18 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
 
           <div className="flex items-center gap-4 ml-auto">
             <a
-              href={`tel:${COMPANY_INFO.phone[0]}`}
+              href={`tel:${COMPANY_INFO.phones[0]}`}
               className="flex items-center gap-1 hover:text-amber-400 transition-colors font-semibold"
             >
               <Phone className="w-3.5 h-3.5 text-orange-400" />
-              {COMPANY_INFO.phone[0]}
+              {COMPANY_INFO.phones[0]}
             </a>
             <span className="text-slate-600">/</span>
             <a
-              href={`tel:${COMPANY_INFO.phone[1]}`}
+              href={`tel:${COMPANY_INFO.phones[1]}`}
               className="flex items-center gap-1 hover:text-amber-400 transition-colors font-semibold"
             >
-              {COMPANY_INFO.phone[1]}
+              {COMPANY_INFO.phones[1]}
             </a>
           </div>
         </div>
@@ -119,7 +119,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
             {/* Desktop Direct Call / Contact CTA */}
             <div className="hidden sm:flex lg:flex items-center gap-3">
               <a
-                href={`tel:${COMPANY_INFO.phone[0]}`}
+                href={`tel:${COMPANY_INFO.phones[0]}`}
                 className="bg-brand-accent hover:bg-orange-600 text-white font-bold text-sm px-4 py-2.5 rounded-lg shadow-sm transition-all flex items-center gap-2"
               >
                 <Phone className="w-4 h-4" />
@@ -178,11 +178,11 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
 
             <div className="pt-3 border-t border-slate-200 flex flex-col gap-2">
               <a
-                href={`tel:${COMPANY_INFO.phone[0]}`}
+                href={`tel:${COMPANY_INFO.phones[0]}`}
                 className="w-full bg-brand-accent text-white font-bold text-sm py-3 rounded-lg flex items-center justify-center gap-2 shadow-sm"
               >
                 <Phone className="w-4 h-4" />
-                Call {COMPANY_INFO.phone[0]}
+                Call {COMPANY_INFO.phones[0]}
               </a>
             </div>
           </div>

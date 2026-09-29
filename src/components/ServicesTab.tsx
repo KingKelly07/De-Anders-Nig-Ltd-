@@ -60,11 +60,11 @@ export const ServicesTab: React.FC<ServicesTabProps> = ({ setActiveTab }) => {
 
             <div className="flex flex-wrap gap-3">
               <a
-                href={`tel:${COMPANY_INFO.phone[0]}`}
+                href={`tel:${COMPANY_INFO.phones[0]}`}
                 className="bg-brand-accent hover:bg-orange-600 text-white font-bold text-sm px-5 py-3 rounded-xl flex items-center gap-2 shadow-sm transition-colors"
               >
                 <Phone className="w-4 h-4" />
-                <span>Call {COMPANY_INFO.phone[0]}</span>
+                <span>Call {COMPANY_INFO.phones[0]}</span>
               </a>
               <a
                 href={COMPANY_INFO.whatsappLinkPrimary}
@@ -149,7 +149,7 @@ export const ServicesTab: React.FC<ServicesTabProps> = ({ setActiveTab }) => {
 
             <div className="mt-8 pt-6 border-t border-slate-100 flex flex-wrap gap-3">
               <a
-                href={`tel:${COMPANY_INFO.phone[0]}`}
+                href={`tel:${COMPANY_INFO.phones[0]}`}
                 className="bg-brand-primary hover:bg-blue-800 text-white font-bold text-sm px-5 py-3 rounded-xl flex items-center gap-2"
               >
                 <Phone className="w-4 h-4" />
@@ -238,7 +238,7 @@ export const ServicesTab: React.FC<ServicesTabProps> = ({ setActiveTab }) => {
 
             <div className="p-4 rounded-xl bg-slate-800 border border-slate-700 space-y-2 text-sm">
               <p className="font-bold text-amber-400">Direct Hotlines & Socials:</p>
-              <p>📞 Phone: {COMPANY_INFO.phone.join(' / ')}</p>
+              <p>📞 Phone: {COMPANY_INFO.phones.join(' / ')}</p>
               <p>💬 WhatsApp: {COMPANY_INFO.whatsappNumbers.join(' / ')}</p>
               <p>📸 Instagram: {COMPANY_INFO.instagramHandles.join(' • ')}</p>
             </div>

@@ -142,16 +142,16 @@ export const Footer: React.FC<FooterProps> = ({ setActiveTab }) => {
                 <Phone className="w-4 h-4 text-brand-accent shrink-0" />
                 <div className="flex flex-col">
                   <a
-                    href={`tel:${COMPANY_INFO.phone[0]}`}
+                    href={`tel:${COMPANY_INFO.phones[0]}`}
                     className="font-bold text-white hover:text-amber-400 transition-colors"
                   >
-                    {COMPANY_INFO.phone[0]}
+                    {COMPANY_INFO.phones[0]}
                   </a>
                   <a
-                    href={`tel:${COMPANY_INFO.phone[1]}`}
+                    href={`tel:${COMPANY_INFO.phones[1]}`}
                     className="font-bold text-white hover:text-amber-400 transition-colors"
                   >
-                    {COMPANY_INFO.phone[1]}
+                    {COMPANY_INFO.phones[1]}
                   </a>
                 </div>
               </li>
